@@ -1,0 +1,7 @@
+@import '_mixin';
+@import '_functhions';
+footer{
+    @include flex;
+    @include border;
+    grid-area: footer;
+}

@@ -1,0 +1,12 @@
+header {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  align-content: space-between;
+  grid-area: header;
+}
+header .logo {
+  background-image: url(photos/facultet.png);
+  width: 30px;
+  height: 30px;
+}/*# sourceMappingURL=header.css.map */

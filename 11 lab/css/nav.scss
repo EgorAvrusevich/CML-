@@ -1,0 +1,16 @@
+@import '_mixin';
+@import '_functhions';
+nav {
+    @include flex;
+    grid-area: nav;
+    div{
+        @include border;
+        margin-left: auto;
+        vertical-align: middle;
+        width: 100px;
+        text-align: center;
+        a{
+            text-decoration: none;
+        }
+    }
+}

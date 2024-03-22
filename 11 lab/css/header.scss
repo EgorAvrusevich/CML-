@@ -1,0 +1,11 @@
+@import '_mixin';
+@import '_functhions';
+header{
+    @include flex;
+    grid-area: header;
+    .logo{
+        background-image: url(photos/facultet.png);
+        width: 30px;
+        height: 30px;
+    }
+}

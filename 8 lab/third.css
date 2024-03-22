@@ -1,0 +1,42 @@
+ul li{
+    display:block;
+    list-style-type: none;
+}
+nav li:hover ul{
+    display: block;
+    visibility: visible;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+nav ul{
+    position: absolute;
+}
+ul li ul{
+    visibility: hidden;
+}
+.ul1{
+    width: 200px;
+    display: block;
+    text-align: left;
+    margin-left: 40%;
+    margin-right: auto;
+    background-color: yellow;
+    border: 1px solid black;
+}
+.list{
+    width: 200px;
+    margin-left: -5em;
+    display: block;
+    text-align: left;
+    background-color: orange;
+    border: 1px dotted black;
+}
+.li{
+    display: block;
+    text-align: left;
+}
+.nav{
+    display: block;
+}

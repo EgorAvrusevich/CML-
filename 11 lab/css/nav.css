@@ -1,0 +1,17 @@
+nav {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  align-content: space-between;
+  grid-area: nav;
+}
+nav div {
+  border: 1px solid black;
+  margin-left: auto;
+  vertical-align: middle;
+  width: 100px;
+  text-align: center;
+}
+nav div a {
+  text-decoration: none;
+}/*# sourceMappingURL=nav.css.map */

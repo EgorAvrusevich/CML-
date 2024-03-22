@@ -1,0 +1,137 @@
+aside {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  align-content: space-between;
+  grid-area: aside;
+}
+aside h2 {
+  border: 1px solid black;
+  width: 100%;
+  text-align: center;
+}
+aside .container {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  align-content: space-between;
+  width: 450px;
+}
+aside .container div {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  align-content: space-between;
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+aside .container div img {
+  border: 1px solid black;
+  display: inline-flex;
+  height: 150px;
+  width: 200px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+aside .container div div {
+  border: 1px solid black;
+  float: right;
+  display: inline-flex;
+  height: 150px;
+  width: 200px;
+}
+
+form {
+  border: 1px solid black;
+  grid-area: form;
+}
+form div {
+  margin-bottom: auto;
+  vertical-align: middle;
+}
+form div label {
+  display: inline-block;
+  width: 100px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  align-content: space-between;
+  grid-area: main;
+}
+main h2 {
+  border: 1px solid black;
+  width: 100%;
+  text-align: center;
+  margin-bottom: -10px;
+}
+main .text div {
+  display: inline-flex;
+  width: 300px;
+  height: 250px;
+  margin-right: 40px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid black;
+}
+main .imgs div {
+  display: inline-flex;
+}
+main .imgs div img {
+  margin-right: 50px;
+  width: 200px;
+  height: 300px;
+}
+
+header {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  align-content: space-between;
+  grid-area: header;
+}
+header .logo {
+  background-image: url(photos/facultet.png);
+  width: 30px;
+  height: 30px;
+}
+
+footer {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  align-content: space-between;
+  border: 1px solid black;
+  grid-area: footer;
+}
+
+nav {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  align-content: space-between;
+  grid-area: nav;
+}
+nav div {
+  border: 1px solid black;
+  margin-left: auto;
+  vertical-align: middle;
+  width: 100px;
+  text-align: center;
+}
+nav div a {
+  text-decoration: none;
+}
+
+section {
+  display: grid;
+  grid-template-areas: "header nav nav nav" "main main main form" "main main main aside" "footer footer footer footer";
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 0.1fr 1.8fr 1.8fr 0.1fr;
+  width: 100%;
+  gap: 10px;
+}/*# sourceMappingURL=all.css.map */

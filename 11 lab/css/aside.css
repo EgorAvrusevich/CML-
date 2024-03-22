@@ -1,0 +1,57 @@
+aside {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  align-content: space-between;
+  grid-area: aside;
+}
+aside h2 {
+  border: 1px solid black;
+  width: 100%;
+  text-align: center;
+}
+aside .container {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  align-content: space-between;
+  width: 450px;
+}
+aside .container div {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  align-content: space-between;
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+aside .container div img {
+  border: 1px solid black;
+  display: inline-flex;
+  height: 150px;
+  width: 200px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+aside .container div div {
+  border: 1px solid black;
+  float: right;
+  display: inline-flex;
+  height: 150px;
+  width: 200px;
+}
+
+form {
+  border: 1px solid black;
+  grid-area: form;
+}
+form div {
+  margin-bottom: auto;
+  vertical-align: middle;
+}
+form div label {
+  display: inline-block;
+  width: 100px;
+  margin-bottom: 30px;
+  align-items: center;
+}/*# sourceMappingURL=aside.css.map */

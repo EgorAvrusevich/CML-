@@ -1,0 +1,8 @@
+footer {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: row wrap;
+  align-content: space-between;
+  border: 1px solid black;
+  grid-area: footer;
+}/*# sourceMappingURL=footer.css.map */

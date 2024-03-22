@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+        <style>   
+            @font-face {
+    font-family:'Caveat';
+    src:url('fonts/Caveat.ttf') format('woff')
+}
+            @font-face {
+    font-family: 'Comfortaa';
+    src: url('fonts/Comfortaa.ttf') format('woff');
+}
+            @font-face {
+    font-family: 'Exo2';
+    src: url('fonts/Exo2.ttf') format('woff');
+}
+            h1 {
+                font-style:bold;
+                text-align: center;
+                font-size:45px;
+                margin-bottom: 0;
+                font-family:'Caveat'
+            }
+            h2 {
+                margin-bottom: 1.2em;
+                font-family: 'Exo2';
+                margin-top: 0.2rem;
+                text-indent: 25px;
+                text-align: left;
+            }
+            .text {
+                font-family: 'Comfortaa';
+                text-align: justify;
+                text-indent: 25px;
+                font-size: 20px;
+                margin-bottom: 0;
+                margin-top: 0;
+                line-height: 200%;
+            }
+            p::first-letter {
+            font-style:bold;
+            font-size:45px;
+            color:white;
+            background-color: hsla(275, 100%, 10%, 1);
+            }
+            ol {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            ol li {
+                font-family:'comfortaa';
+                font-size: 20px;
+            list-style-type: none;
+            counter-increment: item;
+}
+    ol li:before {
+            content: counter(item, upper-roman) ".";
+            color: blue;
+}
+        </style>
+        <title>Титул</title>
+    </head>
+    <body>
+        <h1>Общага(копейка)</h1>
+        <h2>Жизнь</h2>
+        <p class="text">Жизнь в копейка непроста, и совсем не похожа на ту жзнь которая была показана сериале "Универ"
+            ,из-за чего я сильно растроился, но не унываю.</p>
+        <p class="text">Есть нечего, пить нечего, живём на одном воздухе все моются в общем душе который разделён только на мужской и женский,</p>
+    <h3>Бам</h3>
+    <ol>
+        <li><span>Бам</span></li>
+            <li><span>Бам</span></li>
+                <li><span>Бам</span></li>
+                    <li><span>Бам</span></li>
+                        <li><span>Бам</span></li>
+    </ol>
+    </body>
+</html>

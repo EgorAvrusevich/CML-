@@ -1,0 +1,49 @@
+@import '_mixin';
+@import '_functhions';
+aside{
+    @include flex;
+    grid-area:aside;
+    h2{
+        @include border;
+        width: 100%;
+        text-align: center;
+    }
+    .container{
+        @include flex;
+        width: 450px;
+        div{
+            @include flex;
+            @include border;
+            margin-bottom: 5px;
+            img{
+                @include border;
+                display: inline-flex;
+                height: 150px;
+                width: 200px;
+                margin-right: 10px;
+                margin-left: 20px;
+            }
+            div{
+                @include border;
+                float: right;
+                display: inline-flex;
+                height: 150px;
+                width:200px;
+            }
+        }
+    }
+}
+form{
+    @include border;
+    grid-area:form;
+    div{
+        margin-bottom: auto;
+        vertical-align: middle;
+        label {
+            display: inline-block;
+            width:100px;
+            margin-bottom: 30px;
+            align-items: center;
+        }
+    }
+}

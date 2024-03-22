@@ -1,0 +1,33 @@
+nav li{
+    border: 1px solid black;
+    height: 30px;
+    display: inline;
+    width: 200px;
+    float: left;
+}
+li{
+    list-style-type: none;
+}
+ul>li>ul{
+    margin-top: 13px;
+    margin-left: -2.5em;
+    visibility: hidden;
+}
+ul li:hover ul{
+    visibility: visible;
+}
+nav>ul>li {
+    background: url(facultet.png) no-repeat;
+}
+.it:hover{
+    background-position: 0 -30px;
+}
+.ul1{
+    margin-left: 15%;
+    vertical-align: middle;
+    text-align: center;
+}
+.ul1>li{
+    margin-left: 50px;
+}
+

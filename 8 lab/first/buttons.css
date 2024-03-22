@@ -1,0 +1,35 @@
+div{
+    margin-top: 10%;
+    margin-left: 35%;
+}
+input{
+    margin-left: 10px;
+}
+.button1:hover{
+    color: white;
+    background-color: black;
+}
+.button2:hover{
+    background-color: white;
+    border: 4px solid red;
+    outline: 4px solid yellow;
+}
+.button3:hover{
+    background-color: white;
+    border-left: 0;
+    border-right: 0;
+    border-top:3px solid greenyellow;
+    border-bottom: 3px solid greenyellow;
+}
+.button4:hover{
+    background-color: white;
+    border-left: 3px solid blue;
+    border-right: 3px solid blue;
+    border-top:0;
+    border-bottom:0;
+}
+.button5:hover{
+    border:0;
+    background-image: radial-gradient(yellow,pink,purple,rgb(0, 255, 255));
+
+}

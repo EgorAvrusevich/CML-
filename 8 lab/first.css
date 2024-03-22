@@ -1,0 +1,19 @@
+aside{
+    margin-left:60%;
+}
+li {
+    list-style-type: none;
+}
+ a:link{
+    text-decoration: none;
+    color: red;
+}
+ a:visited{
+    color: #8B0000;
+}
+ a:hover{
+    color: green;
+}
+ a:active{
+    color: rgb(184, 134, 11);
+}

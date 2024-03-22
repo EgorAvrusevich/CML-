@@ -1,0 +1,60 @@
+h1{
+    text-align: center;
+    animation:h1 2s linear 0s infinite;
+}
+@keyframes h1 {
+    0%{opacity: 0;}
+    50%{opacity: 80%;}
+    100%{opacity: 0;}
+}
+img{
+    position: relative;
+}
+div{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: inline-flex;
+}
+@keyframes moving1 {
+    0% {left:0;}
+    50% {left:200px;}
+    100% {left:0;}
+}
+@keyframes moving2 {
+    0% {left: 0px;}
+    50% {left:200px;
+        transform: rotateX(50deg);}
+    100%{left:0px;}
+}
+@keyframes moving3 {
+    0% {left:-1200px;}
+    50% {left:-250px;}
+    100%{left:700px;}
+}
+@keyframes moving4 {
+    0% {top:0;}
+    50% {top:50px;}
+    100%{top:0;}
+}
+@keyframes moving5 {
+    0% {left: 0px; top:0;}
+    25% {left:200px; top:0;}
+    50%{left:200px; top:200px;}
+    75%{left:0; top:200px;}
+    100%{left:0; top:0;}
+}
+.moving1{
+    animation: moving1 5s linear 0.5s infinite;
+}
+.moving2{
+    animation: moving2 5s linear 0.5s infinite;
+}
+.moving3{
+    animation: moving3 5s linear 0.5s infinite;
+}
+.moving4{
+    animation: moving4 2.5s linear 0.25s infinite;
+}
+.moving5{
+    animation: moving5 5s linear 0.5s infinite;
+}
